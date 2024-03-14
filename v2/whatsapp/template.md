@@ -61,7 +61,7 @@ You can send template message using `POST` method content in body.
 | recipient   |	This block contains contacts informations                                                                |
 | group_id    |	Segment id which contain list of phone numbers (Required if `to` param not present)                      |
 | to	        | Receiver mobile numbers (Required if `group_id` param not present)                                             |
-| data        | Variable values for replacing in template content                                                       |
+| data        | Variable values for replacing in template content (`optional`)                                                       |
 
 #### OPTIONAL PARAMETERS
 
